@@ -1,0 +1,121 @@
+[2018-11-03 10:37:48] Executing bootstrap tasks
+[2018-11-03 10:37:48] Java(TM) SE Runtime Environment 11-ea+8
+[2018-11-03 10:37:48] Product org.eclipse.products.epp.package.java.2018-09
+[2018-11-03 10:37:48] Bundle org.eclipse.oomph.setup 1.10.0.v20180828-0705, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2018-11-03 10:37:48] Bundle org.eclipse.oomph.setup.core 1.10.0.v20180714-0556, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2018-11-03 10:37:48] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2018-11-03 10:37:48] Performing P2 Director (Eclipse IDE for Java Developers (2018-09))
+[2018-11-03 10:37:48] Offline = false
+[2018-11-03 10:37:48] Mirrors = true
+[2018-11-03 10:37:48] Resolving 27 requirements from 3 repositories to C:\Users\welcome\eclipse-workspace\eclipse
+[2018-11-03 10:37:48] Requirement epp.package.java [4.9.0,4.10.0)
+[2018-11-03 10:37:48] Requirement org.eclipse.platform.feature.group [4.9.0,4.10.0)
+[2018-11-03 10:37:48] Requirement org.eclipse.rcp.feature.group [4.9.0,4.10.0)
+[2018-11-03 10:37:48] Requirement org.eclipse.buildship.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.eclemma.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.egit.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.egit.mylyn.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.epp.mpc.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.jdt.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.jgit.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.m2e.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.mylyn.git.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.mylyn.hudson.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.mylyn_feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.recommenders.mylyn.rcp.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.recommenders.news.rcp.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.recommenders.rcp.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.recommenders.snipmatch.rcp.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.tips.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2018-11-03 10:37:48] Requirement org.eclipse.oomph.setup.feature.group
+[2018-11-03 10:37:48] Repository http://download.eclipse.org/technology/epp/packages/2018-09
+[2018-11-03 10:37:48] Repository http://download.eclipse.org/releases/2018-09/201809191002
+[2018-11-03 10:37:48] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-11-03 10:37:51] Calculating requirements and dependencies.
+[2018-11-03 10:37:56] Computing prerequisite plan
+[2018-11-03 10:38:00] Collecting 1 artifacts from http://download.eclipse.org/technology/epp/packages/2018-09
+[2018-11-03 10:38:00] Downloading epp.package.java.executable.win32.win32.x86_64
+[2018-11-03 10:38:00] Collected 1 artifacts for http://download.eclipse.org/technology/epp/packages/2018-09 in 0.001s
+[2018-11-03 10:38:00] Collecting 3 artifacts from http://download.eclipse.org/releases/2018-09/201809191002
+[2018-11-03 10:38:00] Downloading org.eclipse.platform_root
+[2018-11-03 10:38:00] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2018-11-03 10:38:00] Downloading org.eclipse.rcp_root
+[2018-11-03 10:38:00] Collected 3 artifacts for http://download.eclipse.org/releases/2018-09/201809191002 in 0.705s
+[2018-11-03 10:38:02] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2018-11-03 10:38:02] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:280)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:547)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:340)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:733)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3334)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3262)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3243)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3143)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1298)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.access$32(SimpleVariablePage.java:1166)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1111)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=C__Users_welcome_eclipse-workspace_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.util.zip.ZipException: Exception in opening zip file: C:\Users\welcome\.p2\pool\plugins\org.eclipse.e4.emf.xpath_0.2.200.v20180828-0227.jar
+    at org.eclipse.osgi.framework.util.SecureAction.getZipFile(SecureAction.java:320)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:215)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:77)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:58)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:55)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:255)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:45)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:543)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:340)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:733)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3334)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3262)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3243)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3143)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1298)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.access$32(SimpleVariablePage.java:1166)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1111)
+  Caused by: java.util.zip.ZipException: zip END header not found
+    at java.base/java.util.zip.ZipFile$Source.zerror(Unknown Source)
+    at java.base/java.util.zip.ZipFile$Source.findEND(Unknown Source)
+    at java.base/java.util.zip.ZipFile$Source.initCEN(Unknown Source)
+    at java.base/java.util.zip.ZipFile$Source.<init>(Unknown Source)
+    at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+    at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+    at java.base/java.util.zip.ZipFile$CleanableResource.get(Unknown Source)
+    at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+    at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+    at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+    at org.eclipse.osgi.framework.util.SecureAction.getZipFile(SecureAction.java:307)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:215)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:77)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:58)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:55)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:255)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:45)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:543)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:340)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:733)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3334)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3262)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3243)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3143)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1298)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.access$32(SimpleVariablePage.java:1166)
+    ... 1 more
+
+[2018-11-03 10:38:02] 
